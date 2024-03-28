@@ -91,3 +91,35 @@ header .cabecalho p {
     text-align: center;
     font-size: 20px;
 }
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.metricas div {
+    width: 280px;
+}
+
+.metricas div h1 {
+    color: var(--marrom-principal);
+    font-weight: 600;
+    font-size: 60px;
+    height: 72px;
+}
+
+.metricas div h2 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    height: 28px;
+}
+
+.metricas div p {
+    color: var(--cor-paragrafo);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
