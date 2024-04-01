@@ -2,6 +2,7 @@
 
 :root {
     --marrom-principal: #8E2424;
+    --marrom-transparente: rgba(142, 36, 36, 0.15);
     --cor-paragrafo: #667085;
 }
 
@@ -74,6 +75,8 @@ header .cabecalho {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    text-align: center;
+    padding: 10px;
 }
 
 header .cabecalho span {
@@ -97,6 +100,8 @@ header .cabecalho p {
     justify-content: center;
     gap: 64px;
     flex-wrap: wrap;
+    margin-bottom: 160px;
+    padding: 10px;
 }
 
 .metricas div {
@@ -122,4 +127,39 @@ header .cabecalho p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.talentos span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--marrom-principal);
+    background-color: var(--marrom-transparente);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.talentos h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.talentos p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-paragrafo);
+}
+
+.talentos img {
+    width: 80%;
 }
