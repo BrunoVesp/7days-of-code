@@ -103,10 +103,11 @@ header .cabecalho p {
 .metricas {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 64px;
     flex-wrap: wrap;
-    margin-bottom: 160px;
-    padding: 10px;
+    margin-bottom: 150px;
+    padding: 0px 0px 96px 0px;
 }
 
 .metricas div {
@@ -142,6 +143,8 @@ header .cabecalho p {
     gap: 32px;
     padding: 10px;
     text-align: center;
+    height: 602px;
+    margin-bottom: 80px;
 }
 
 .talentos span {
@@ -174,6 +177,7 @@ header .cabecalho p {
 
 .vagas-abertas {
     max-width: 768px;
+    height: 940px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -225,7 +229,7 @@ header .cabecalho p {
     padding: 10px;
     max-width: 1280px;
     margin: 0 auto;
-    margin-top: 100px;
+    height: 500px;
 }
 
 .depoimentos span {
@@ -263,4 +267,57 @@ header .cabecalho p {
     font-size: 14px;
     line-height: 20px;
     color: var(--cor-paragrafo);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    padding: 10px;
+    height: 430px;
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-titulo);
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-paragrafo);
+}
+
+footer form {
+    display: flex;
+    gap: 16px;
+}
+
+footer form input {
+    width: 360px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+}
+
+footer form button {
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: 1px solid var(--marrom-principal);
+    background-color: var(--marrom-principal);
+    color: white;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+footer span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98a2b3;
 }
